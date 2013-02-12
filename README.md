@@ -1,3 +1,19 @@
+
+Ember Financial Tracker
+===============================
+* As a user ISBAT come to the app anytime I spend or receive money and log it so I can keep track of how much money is coming in and going out every month.
+
+* As a user ISBAT enter an expense/deposit:
+** description
+** an amount
+** a category
+
+These are the basic Restaurants, Groceries, Work Expenses,  Entertainment, Paycheques, Rent, Utilities
+
+
+
+* Cloned and Modified from https://github.com/Skalar/ember_todo
+
 Ember TODO - Ember v.1.0.0-pre4
 ===============================
 
