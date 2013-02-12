@@ -15,7 +15,7 @@ These are the basic Restaurants, Groceries, Work Expenses,  Entertainment, Paych
 * Cloned and Modified from https://github.com/Skalar/ember_todo
 
 Ember TODO - Ember v.1.0.0-pre4
-===============================
+----------------------------
 
 This is an example app of Ember, version 1.0.0-pre4.
 We are using the new router and this app should be a demonstration
