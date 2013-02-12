@@ -3,7 +3,7 @@ class CreateTasks < ActiveRecord::Migration
     create_table :tasks do |t|
       t.string :name
       t.boolean :done, null: false, default: false
-      t.integer :minutes_estimated_to_complete
+      t.decimal :minutes_estimated_to_complete
       t.belongs_to :list
 
       t.timestamps

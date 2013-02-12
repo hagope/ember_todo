@@ -22,7 +22,7 @@ ActiveRecord::Schema.define(:version => 20130126123549) do
   create_table "tasks", :force => true do |t|
     t.string   "name"
     t.boolean  "done",                          :default => false, :null => false
-    t.integer  "minutes_estimated_to_complete"
+    t.decimal  "minutes_estimated_to_complete"
     t.integer  "list_id"
     t.datetime "created_at",                                       :null => false
     t.datetime "updated_at",                                       :null => false
