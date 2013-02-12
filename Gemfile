@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'sqlite3'
+gem 'sqlite3', '= 1.3.7'
 
 gem 'rails', '3.2.11'
 gem 'ember-rails', github: 'emberjs/ember-rails'
