@@ -4,6 +4,6 @@ Todo.List = DS.Model.extend
   name: DS.attr 'string'
 
   minutesLeftToComplete: Ember.computed ->
-    total = @get('tasks').getEach('minutesLeftToComplete').reduce ((sum, min) -> sum + parseInt(min, 10)), 0
+    total = @get('tasks').getEach('minutesLeftToComplete').reduce ((prevVal, item) -> (prevVal || 0) + item), 0
     if total is 0 then null else total
   .property('tasks.@each.minutesLeftToComplete')
