@@ -1,40 +1,63 @@
 list_attributes = [
   {
-    name: 'Home'
+    name: 'Restaurants'
+  },
+  {
+    name: 'Groceries'
+  },
+  {
+    name: 'Expenses'
+  },
+  {
+    name: 'Entertainment'
+  },
+  {
+    name: 'Paycheques'
   },
 
   {
-    name: 'Work'
+    name: 'Rent'
   },
-
   {
-    name: 'Other'
+    name: 'Utilities'
   }
 ]
 
 task_attributes = {
-  'Home' => [
+  'Restaurants' => [
     {
-      name: 'Clean the house',
-      minutes_estimated_to_complete: 60
-    },
-
+      name: 'What the Pho',
+      minutes_estimated_to_complete: 43.34
+    }
+  ],
+  'Groceries' => [
     {
-      name: 'Make dinner',
-      done: true,
-      minutes_estimated_to_complete: 20
+      name: 'Overpriced fruit from Whole Foods',
+      minutes_estimated_to_complete: 199.34
+    }
+  ], 
+  'Utilities' => [
+    {
+      name: 'Water and such',
+      minutes_estimated_to_complete: 23.31
+    }
+  ],
+  'Rent' => [
+    {
+      name: 'Overpriced Silicon Valley Apartment',
+      minutes_estimated_to_complete: 2999
     }
   ],
 
-  'Work' => [
+  'Expenses' => [
     {
-      name: 'Write a todo app in Ember',
-      minutes_estimated_to_complete: (60 * 2)
+      name: 'Automation software',
+      minutes_estimated_to_complete: 70.99
     },
 
     {
-      name: 'Make a presentation for the other co-workers',
-      minutes_estimated_to_complete: 30
+      name: 'Lunch with the Bobs at Chotchkies',
+      minutes_estimated_to_complete: 34.43
     }
   ]
 }
